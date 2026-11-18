@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background: #f2f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 480px;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    color: #0066cc;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 6px;
+    margin-top: 12px;
+}
+
+.signup-form input,
+.signup-form select {
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #cdd7e3;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.signup-form input:focus,
+.signup-form select:focus {
+    border-color: #0066cc;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid #0066cc;
+    transition: all 0.3s ease;
+}
+
+.btn--primary {
+    background-color: #0066cc;
+    color: #ffffff;
+}
+
+.btn--primary:hover {
+    background-color: #004d99;
+    border-color: #004d99;
+}
+
+.btn--outline {
+    background-color: #ffffff;
+    color: #0066cc;
+}
+
+.btn--outline:hover {
+    background-color: #e6f0ff;
+}
+
+.form-footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.form-footer a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .form-container {
+        padding: 30px 20px;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+    }
+}
