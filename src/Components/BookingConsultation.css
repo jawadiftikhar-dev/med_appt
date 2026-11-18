@@ -1,0 +1,38 @@
+.booking-consultation {
+  max-width: 1080px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.booking-consultation__header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.booking-consultation__header h1 {
+  color: #0f172a;
+  font-size: 32px;
+  margin: 0 0 8px;
+}
+
+.booking-consultation__header p {
+  color: #64748b;
+  margin: 0;
+}
+
+.booking-consultation__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.booking-consultation__empty {
+  text-align: center;
+  color: #64748b;
+  padding: 40px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}

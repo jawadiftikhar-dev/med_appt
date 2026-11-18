@@ -12,6 +12,15 @@ const Sign_Up = () => {
   const [showerr, setShowerr] = useState("");
   const navigate = useNavigate();
 
+  const handleReset = () => {
+    setRole("");
+    setName("");
+    setPhone("");
+    setEmail("");
+    setPassword("");
+    setShowerr("");
+  };
+
   const register = async (e) => {
     e.preventDefault();
     setShowerr("");
@@ -86,7 +95,7 @@ const Sign_Up = () => {
 
             <div className="btn-group">
               <button type="submit" className="btn btn-primary">Sign Up</button>
-              <button type="reset" className="btn btn-secondary">Reset</button>
+              <button type="button" onClick={handleReset} className="btn btn-secondary">Reset</button>
             </div>
 
             <p style={{ marginTop: "15px" }}>

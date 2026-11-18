@@ -36,19 +36,20 @@ const Navbar = () => {
         <Link to="/">StayHealthy</Link>
       </div>
 
-      <ul className="navbar__links">
+<ul className="navbar__links">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/appointments">Appointments</Link></li>
-        <li><Link to="/doctors">Doctors</Link></li>
-        <li><Link to="/reviews">Reviews</Link></li>
-        <li><Link to="/about">About</Link></li>
         <li><Link to="/instant-consultation">Instant Consult</Link></li>
+        <li><Link to="/reviews">Reviews</Link></li>
+        {isLoggedIn && <li><Link to="/reports">Reports</Link></li>}
       </ul>
 
       <div className="navbar__auth">
         {isLoggedIn ? (
           <>
-            <span className="navbar__username">Hi, {userName}</span>
+            <Link to="/profile" className="navbar__username" style={{ textDecoration: "none" }}>
+              Welcome, {userName}
+            </Link>
             <button className="btn btn--primary" onClick={handleLogout}>
               Logout
             </button>
