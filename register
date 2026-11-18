@@ -3,9 +3,9 @@ curl -X POST http://localhost:8181/api/auth/register \
 -d '{
   "role": "Doctor",
   "name": "John Doe",
-  "email": "johndoe@example.com",
-  "phone": "1234567890",
-  "password": "yourpassword"
+  "email": "johndoe@gmail.com",
+  "phone": "923076987496",
+  "password": "dr@john123921"
 }'
 
 {"authtoken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"}
