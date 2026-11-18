@@ -1,0 +1,89 @@
+.appointment-form-ic {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+.appointment-form-ic h3 {
+  color: #0f172a;
+  font-size: 17px;
+  margin: 0 0 16px;
+}
+.appointment-form-ic .form-group {
+  margin-bottom: 14px;
+}
+.appointment-form-ic label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 6px;
+}
+.appointment-form-ic input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
+  background: #ffffff;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+.appointment-form-ic input:focus {
+  border-color: #0066cc;
+  box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.1);
+}
+.ic-error {
+  color: #dc2626;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.ic-success {
+  text-align: center;
+  padding: 16px 8px;
+}
+.ic-success h3 {
+  color: #10b981;
+  margin-bottom: 12px;
+}
+.ic-success p {
+  color: #475569;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.ic-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+.ic-buttons button {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #0066cc, #00b4d8);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.25);
+}
+.btn-primary:hover { transform: translateY(-1px); }
+.btn-secondary {
+  background: #ffffff;
+  color: #475569;
+  border: 1.5px solid #e2e8f0;
+}
+.btn-secondary:hover { background: #f1f5f9; }

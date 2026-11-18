@@ -42,6 +42,7 @@ const Navbar = () => {
         <li><Link to="/doctors">Doctors</Link></li>
         <li><Link to="/reviews">Reviews</Link></li>
         <li><Link to="/about">About</Link></li>
+        <li><Link to="/instant-consultation">Instant Consult</Link></li>
       </ul>
 
       <div className="navbar__auth">

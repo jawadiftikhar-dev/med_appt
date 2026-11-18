@@ -1,0 +1,35 @@
+.instant-consultation {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.instant-consultation h1 {
+  color: #0f172a;
+  font-size: 32px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.instant-consultation > p {
+  color: #64748b;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.instant-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+.instant-popup {
+  padding: 20px;
+  max-height: 70vh;
+  overflow-y: auto;
+  font-family: 'Poppins', sans-serif;
+}
+.instant-popup h3 {
+  color: #0f172a;
+  margin: 0 0 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e2e8f0;
+}

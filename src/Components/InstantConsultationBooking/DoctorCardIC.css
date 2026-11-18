@@ -1,0 +1,56 @@
+.doctor-card-ic {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+  font-family: 'Poppins', sans-serif;
+}
+.doctor-card-ic__info {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.doctor-card-ic__avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0066cc, #00b4d8);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.doctor-card-ic__info h4 {
+  color: #0f172a;
+  font-size: 16px;
+  margin: 0 0 2px;
+}
+.doctor-card-ic__speciality {
+  color: #0066cc;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0 0 2px;
+}
+.doctor-card-ic__meta {
+  color: #64748b;
+  font-size: 12px;
+  margin: 0;
+}
+.doctor-card-ic > .btn-primary {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  background: linear-gradient(135deg, #0066cc, #00b4d8);
+  color: #ffffff;
+}
