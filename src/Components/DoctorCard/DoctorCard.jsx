@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
-import AppointmentForm from "../AppointmentForm/AppointmentForm";
+import AppointmentForm from "../AppointmentFormIC/AppointmentForm";
 import "./DoctorCard.css";
 
 const DoctorCard = ({ name, speciality, experience, ratings }) => {
